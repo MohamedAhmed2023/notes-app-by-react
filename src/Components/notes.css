@@ -1,0 +1,50 @@
+.note {
+    background: #ffffff1e;
+    backdrop-filter: 10px;
+    box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+    border-radius: 5px;
+    border: 1.5px solid #fff;
+    color: #fff;
+    padding: 15px;
+    min-height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    word-wrap: break-word;
+    font-size: 25px;
+}
+
+.note textarea {
+    white-space: pre-wrap;
+    background: transparent;
+    border: none;
+    color: #fff;
+    resize: none;
+    font-size: 25px;
+}
+
+.note textarea:focus {
+    outline: none;
+}
+
+.note textarea::placeholder {
+    color: #fff;
+}
+
+.note_save {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    background: #fff;
+    transition: 0.1s ease-in-out;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    color: #330867;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.note_save:hover {
+    background: transparent;
+    border: 1.5px solid #fff;
+    color: #fff;
+}
